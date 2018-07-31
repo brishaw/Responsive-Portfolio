@@ -138,6 +138,7 @@
 
    .bio img {
        float: left;
+       width: 200px;
        transition: transform .5s;
    }
 
