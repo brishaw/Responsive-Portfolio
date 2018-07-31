@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <title>Homework Assignment 1</title>
+        <link href="assets/css/reset.css" rel="stylesheet" type="text/css" />
+        <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>   
+        <header>
+            <section>
+                <div class="logo">
+                    <h1>Brian Shaw</h1>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">About</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </section>
+        </header>
+        <main class="contact">
+            <section>
+                <h1>Contact</h1>     
+                <form class="contact_form" action="basic_portfolio_mailer.php" method="get">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="John Smith" class="contact_name" required>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="example@gmail.com" class="contact_email" required>
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" placeholder="Please leave me a message..."></textarea>
+                    <input class="contact_submit" type="submit" value="Submit">
+                </form>
+            </section>
+        </main>
+        <footer>
+            <section>
+                <h4>Copyright &copy; 2018</h4>
+            </section>
+        </footer>
+    </body>
+</html>
