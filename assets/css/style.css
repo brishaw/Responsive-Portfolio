@@ -36,6 +36,7 @@
 
    header section {
        width: 960px;
+       
        height: 100%;
        margin: 0 auto;
    }
@@ -85,8 +86,7 @@
    }
 
    main {
-       /* width: 898px; */
-       max-width: 898px;
+       width: 898px;
        height: auto;
        padding: 40px 30px;
        margin: 0 auto 100px auto;
@@ -153,6 +153,28 @@
    }
 
    /* styles for the portfolio page */
+
+   /* start grid */
+
+   /* .gallery {
+       margin: 0 auto;
+       max-width: 1200px;
+       padding: 0 1rem;
+   } */
+
+   .responsive-image {
+       max-width: 100%;
+   }
+
+   .cell {
+       margin: 1rem;
+   }
+
+   .cell img {
+       display: block;
+   }
+
+   /* end grid */
 
    .gallery article {
        display: inline-block;
@@ -222,24 +244,7 @@
        color: #ffffff;
    }
 
-      /* start grid.... */
-   .gallery {
-       margin: 0 auto;
-       max-width: 1200px;
-       padding: 0 1rem;
-   }
 
-   .responsive-image {
-       max-width: 100%;
-   }
-
-   .cell {
-       margin: 1rem;
-   }
-
-   .cell img {
-       display: block;
-   }
 
 /* tablet */
 @media screen and (min-width: 600px) {
@@ -264,5 +269,14 @@
     }
 }
 
+/* navbar */
+@media screen and (max-width: 960px) {
+    header section {
+        width: 100%;
+    }
 
-   /* end grid.... */
+    main {
+        width: 100%;
+        padding: 0;
+    }
+}
