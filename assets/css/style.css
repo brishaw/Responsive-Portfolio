@@ -195,8 +195,8 @@
 
    .gallery article {
        display: inline-block;
-       margin-right: 34px;
-       margin-bottom: 52px;
+       /* margin-right: 34px;
+       margin-bottom: 52px; */
        position: relative;
    }
 
