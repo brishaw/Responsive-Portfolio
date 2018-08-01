@@ -280,3 +280,15 @@
         padding: 0;
     }
 }
+
+/* @media screen and (min-width: 600px) {
+    
+    header section logo {
+        width: 100%;
+    }
+
+    nav {
+        text-align: center;
+        float: none;
+    }
+} */
