@@ -148,6 +148,51 @@
 
    /* styles for the portfolio page */
 
+   /* start grid.... */
+   .gallery {
+       margin: 0 auto;
+       max-width: 1200px;
+       padding: 0 1rem;
+   }
+
+   .responsive-image {
+       width: 100%;
+   }
+
+   .cell {
+       margin: 1rem;
+   }
+
+   .cell img {
+       display: block;
+   }
+
+/* tablet */
+@media screen and (min-width: 600px) {
+
+    .grid {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .cell {
+        width: 45% - 2rem;
+    }
+}
+
+/* desktop */
+@media screen and (min-width: 1000px) {
+
+    .cell {
+        /* width: calc(100% / 3); */
+        width: calc(33.3333% - 2rem);
+    }
+}
+
+
+   /* end grid.... */
+
    .gallery article {
        display: inline-block;
        margin-right: 34px;
