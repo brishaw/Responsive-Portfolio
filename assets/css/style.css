@@ -31,6 +31,7 @@
        background-color: #ffffff;
        border-bottom: 2px solid #cccccc;
        margin-bottom: 38px;
+       display: inline-table;
    }
 
    header section {
@@ -84,12 +85,17 @@
    }
 
    main {
-       width: 898px;
+       /* width: 898px; */
+       max-width: 898px;
        height: auto;
        padding: 40px 30px;
        margin: 0 auto 100px auto;
        background-color: #ffffff;
        border: 1px solid #dddddd;
+   }
+
+   main section {
+       width: 100%;
    }
 
    main h1 {
@@ -114,8 +120,8 @@
 
    h4 {
     text-align: center;
-    margin-top: 43px;
-    font-size: 10px;
+    margin-top: 35px;
+    font-size: 14px;
     color: #cccccc;
     }
 
@@ -147,51 +153,6 @@
    }
 
    /* styles for the portfolio page */
-
-   /* start grid.... */
-   .gallery {
-       margin: 0 auto;
-       max-width: 1200px;
-       padding: 0 1rem;
-   }
-
-   .responsive-image {
-       width: 100%;
-   }
-
-   .cell {
-       margin: 1rem;
-   }
-
-   .cell img {
-       display: block;
-   }
-
-/* tablet */
-@media screen and (min-width: 600px) {
-
-    .grid {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-    }
-
-    .cell {
-        width: 45% - 2rem;
-    }
-}
-
-/* desktop */
-@media screen and (min-width: 1000px) {
-
-    .cell {
-        /* width: calc(100% / 3); */
-        width: calc(33.3333% - 2rem);
-    }
-}
-
-
-   /* end grid.... */
 
    .gallery article {
        display: inline-block;
@@ -260,3 +221,48 @@
        background-color: #aa4a4f;
        color: #ffffff;
    }
+
+      /* start grid.... */
+   .gallery {
+       margin: 0 auto;
+       max-width: 1200px;
+       padding: 0 1rem;
+   }
+
+   .responsive-image {
+       max-width: 100%;
+   }
+
+   .cell {
+       margin: 1rem;
+   }
+
+   .cell img {
+       display: block;
+   }
+
+/* tablet */
+@media screen and (min-width: 600px) {
+
+    .grid {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .cell {
+        width: calc(45% - 2rem);
+    }
+}
+
+/* desktop */
+@media screen and (min-width: 1000px) {
+
+    .cell {
+        /* width: calc(100% / 3); */
+        width: calc(33.3333% - 2rem);
+    }
+}
+
+
+   /* end grid.... */
