@@ -88,6 +88,7 @@
    main {
        width: 898px;
        height: auto;
+       position: relative;
        padding: 40px 30px;
        margin: 0 auto 100px auto;
        background-color: #ffffff;
@@ -153,6 +154,10 @@
    }
 
    /* styles for the portfolio page */
+
+   .gallery h1 {
+       margin-bottom: 15px;
+   }
 
    /* start grid */
 
@@ -277,7 +282,32 @@
 
     main {
         width: 100%;
-        padding: 0;
+        padding: 40px 0 0 0;
+    }
+
+    main section {
+        width: auto;
+        margin: 0 1rem 0 1rem;
+    }
+
+    .gallery h1 {
+        margin: 0 1rem 15px 1rem;
+    }
+}
+
+@media screen and (max-width: 525px) {
+
+    header section .logo {
+        width: 100%;
+    }
+
+    nav {
+        float: none;
+        clear: both;
+        text-align: center;
+        background-color: rgba(197, 197, 197, 0.43);
+        height: 40px;
+        line-height: 57px;
     }
 }
 
