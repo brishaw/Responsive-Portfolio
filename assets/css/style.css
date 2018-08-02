@@ -309,6 +309,15 @@
         height: 40px;
         line-height: 57px;
     }
+
+    .bio .img_box {
+        margin: 0;
+        float: none;
+    }
+
+    .bio img {
+        width: 100%;
+    }
 }
 
 /* @media screen and (min-width: 600px) {
