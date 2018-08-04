@@ -230,7 +230,7 @@
 
    input::placeholder {
        font-size: 14px;
-       color: #4aaaa4;
+       color: #ec4858;
    }
 
    input, textarea {
@@ -316,7 +316,7 @@
         float: none;
         clear: both;
         text-align: center;
-        background-color: rgba(197, 197, 197, 0.43);
+        background-color: #252a33;
         height: 40px;
         line-height: 57px;
     }
